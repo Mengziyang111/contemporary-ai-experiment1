@@ -2,6 +2,8 @@
 
 姓名：孟子阳　学号：10245501476
 
+代码仓库：https://github.com/Mengziyang111/contemporary-ai-experiment1
+
 本实验比较 TF-IDF 上的多项式朴素贝叶斯、线性 SVM、逻辑回归和 MLP，包含 11 组模型参数配置与 1 组 unigram 特征对照。报告使用实际运行结果和真实损失曲线，未使用无标签测试集选模型。
 
 ## 运行实验
@@ -76,7 +78,7 @@ python verify_results.py --data-dir data --refit-final
 
 ```powershell
 python -m pip install -r requirements-report.txt
-python build_report.py --repo-url https://github.com/ziyangMeng666/contemporary-ai-experiment1 --output ../output/pdf/实验报告.pdf
+python build_report.py --repo-url https://github.com/Mengziyang111/contemporary-ai-experiment1 --output ../output/pdf/实验报告.pdf
 python package_submission.py --pdf ../output/pdf/实验报告.pdf --zip ../output/submission/10245501476_孟子阳_实验一.zip
 ```
 
