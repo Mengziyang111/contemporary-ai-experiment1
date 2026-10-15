@@ -1,0 +1,149 @@
+Samples: labeled=7368, test=2457, train=5894, validation=1474
+TF-IDF: (5894, 20000), dtype=float32, shared fit/transform 5.07s
+NB alpha=0.1 [word1+2]: accuracy=0.9071, macro-F1=0.9081, fit=0.02s
+NB alpha=0.5 [word1+2]: accuracy=0.9037, macro-F1=0.9046, fit=0.03s
+NB alpha=1 [word1+2]: accuracy=0.8976, macro-F1=0.8985, fit=0.01s
+SVM C=0.1 [word1+2]: accuracy=0.8446, macro-F1=0.8521, fit=44.83s
+SVM C=1 [word1+2]: accuracy=0.9301, macro-F1=0.9306, fit=30.61s
+SVM C=10 [word1+2]: accuracy=0.9322, macro-F1=0.9327, fit=32.36s
+LR C=0.1 [word1+2]: accuracy=0.9003, macro-F1=0.9008, fit=0.39s
+LR C=1 [word1+2]: accuracy=0.9186, macro-F1=0.9191, fit=0.93s
+LR C=10 [word1+2]: accuracy=0.9383, macro-F1=0.9384, fit=2.35s
+MLP  50 epoch 01: train CE=1.8169, valid CE=1.8688, valid F1=0.8150
+MLP  50 epoch 02: train CE=1.1799, valid CE=1.3027, valid F1=0.9046
+MLP  50 epoch 03: train CE=0.7065, valid CE=0.8795, valid F1=0.9107
+MLP  50 epoch 04: train CE=0.4383, valid CE=0.6372, valid F1=0.9188
+MLP  50 epoch 05: train CE=0.2913, valid CE=0.5039, valid F1=0.9214
+MLP  50 epoch 06: train CE=0.2046, valid CE=0.4254, valid F1=0.9253
+MLP  50 epoch 07: train CE=0.1497, valid CE=0.3755, valid F1=0.9274
+MLP  50 epoch 08: train CE=0.1130, valid CE=0.3418, valid F1=0.9287
+MLP  50 epoch 09: train CE=0.0877, valid CE=0.3180, valid F1=0.9301
+MLP  50 epoch 10: train CE=0.0696, valid CE=0.3005, valid F1=0.9314
+MLP  50 epoch 11: train CE=0.0565, valid CE=0.2875, valid F1=0.9342
+MLP  50 epoch 12: train CE=0.0468, valid CE=0.2773, valid F1=0.9348
+MLP  50 epoch 13: train CE=0.0394, valid CE=0.2694, valid F1=0.9360
+MLP  50 epoch 14: train CE=0.0337, valid CE=0.2631, valid F1=0.9360
+MLP  50 epoch 15: train CE=0.0292, valid CE=0.2579, valid F1=0.9374
+MLP  50 epoch 16: train CE=0.0256, valid CE=0.2537, valid F1=0.9367
+MLP  50 epoch 17: train CE=0.0228, valid CE=0.2502, valid F1=0.9367
+MLP  50 epoch 18: train CE=0.0204, valid CE=0.2473, valid F1=0.9353
+MLP  50 epoch 19: train CE=0.0184, valid CE=0.2448, valid F1=0.9360
+MLP  50 epoch 20: train CE=0.0168, valid CE=0.2427, valid F1=0.9368
+MLP  50 epoch 21: train CE=0.0154, valid CE=0.2409, valid F1=0.9380
+MLP  50 epoch 22: train CE=0.0142, valid CE=0.2394, valid F1=0.9387
+MLP  50 epoch 23: train CE=0.0132, valid CE=0.2381, valid F1=0.9387
+MLP  50 epoch 24: train CE=0.0124, valid CE=0.2369, valid F1=0.9394
+MLP  50 epoch 25: train CE=0.0116, valid CE=0.2359, valid F1=0.9394
+MLP  50 epoch 26: train CE=0.0109, valid CE=0.2350, valid F1=0.9386
+MLP  50 epoch 27: train CE=0.0103, valid CE=0.2343, valid F1=0.9379
+MLP  50 epoch 28: train CE=0.0098, valid CE=0.2336, valid F1=0.9379
+MLP  50 epoch 29: train CE=0.0094, valid CE=0.2330, valid F1=0.9379
+MLP  50 epoch 30: train CE=0.0089, valid CE=0.2325, valid F1=0.9379
+MLP  50 epoch 31: train CE=0.0086, valid CE=0.2320, valid F1=0.9379
+MLP  50 epoch 32: train CE=0.0082, valid CE=0.2316, valid F1=0.9379
+MLP  50 epoch 33: train CE=0.0079, valid CE=0.2312, valid F1=0.9379
+MLP  50 epoch 34: train CE=0.0077, valid CE=0.2308, valid F1=0.9379
+MLP  50 epoch 35: train CE=0.0074, valid CE=0.2305, valid F1=0.9379
+MLP  50 epoch 36: train CE=0.0072, valid CE=0.2303, valid F1=0.9386
+MLP  50 epoch 37: train CE=0.0070, valid CE=0.2300, valid F1=0.9386
+MLP  50 epoch 38: train CE=0.0068, valid CE=0.2298, valid F1=0.9386
+MLP  50 epoch 39: train CE=0.0066, valid CE=0.2296, valid F1=0.9386
+MLP  50 epoch 40: train CE=0.0065, valid CE=0.2294, valid F1=0.9386
+MLP  50 epoch 41: train CE=0.0063, valid CE=0.2292, valid F1=0.9379
+MLP  50 epoch 42: train CE=0.0062, valid CE=0.2290, valid F1=0.9379
+MLP  50 epoch 43: train CE=0.0060, valid CE=0.2288, valid F1=0.9379
+MLP  50 epoch 44: train CE=0.0059, valid CE=0.2287, valid F1=0.9385
+MLP  50 epoch 45: train CE=0.0058, valid CE=0.2285, valid F1=0.9372
+MLP  50 epoch 46: train CE=0.0057, valid CE=0.2284, valid F1=0.9372
+MLP  50 epoch 47: train CE=0.0056, valid CE=0.2283, valid F1=0.9372
+MLP  50 epoch 48: train CE=0.0055, valid CE=0.2281, valid F1=0.9372
+MLP  50 epoch 49: train CE=0.0054, valid CE=0.2280, valid F1=0.9372
+MLP  50 epoch 50: train CE=0.0053, valid CE=0.2279, valid F1=0.9379
+MLP  50 epoch 51: train CE=0.0052, valid CE=0.2278, valid F1=0.9371
+MLP  50 epoch 52: train CE=0.0051, valid CE=0.2277, valid F1=0.9371
+MLP  50 epoch 53: train CE=0.0051, valid CE=0.2275, valid F1=0.9371
+MLP  50 epoch 54: train CE=0.0050, valid CE=0.2274, valid F1=0.9364
+MLP  50 epoch 55: train CE=0.0049, valid CE=0.2273, valid F1=0.9364
+MLP  50 epoch 56: train CE=0.0049, valid CE=0.2272, valid F1=0.9364
+MLP  50 epoch 57: train CE=0.0048, valid CE=0.2271, valid F1=0.9364
+MLP  50 epoch 58: train CE=0.0047, valid CE=0.2270, valid F1=0.9371
+MLP  50 epoch 59: train CE=0.0047, valid CE=0.2269, valid F1=0.9364
+MLP  50 epoch 60: train CE=0.0046, valid CE=0.2268, valid F1=0.9364
+MLP hidden=50 [word1+2]: accuracy=0.9362, macro-F1=0.9364, fit=114.13s
+MLP 100 epoch 01: train CE=1.5506, valid CE=1.6317, valid F1=0.8946
+MLP 100 epoch 02: train CE=0.7757, valid CE=0.9428, valid F1=0.9138
+MLP 100 epoch 03: train CE=0.3887, valid CE=0.5932, valid F1=0.9211
+MLP 100 epoch 04: train CE=0.2227, valid CE=0.4424, valid F1=0.9272
+MLP 100 epoch 05: train CE=0.1407, valid CE=0.3679, valid F1=0.9293
+MLP 100 epoch 06: train CE=0.0950, valid CE=0.3257, valid F1=0.9320
+MLP 100 epoch 07: train CE=0.0677, valid CE=0.2995, valid F1=0.9340
+MLP 100 epoch 08: train CE=0.0505, valid CE=0.2822, valid F1=0.9333
+MLP 100 epoch 09: train CE=0.0392, valid CE=0.2702, valid F1=0.9334
+MLP 100 epoch 10: train CE=0.0314, valid CE=0.2615, valid F1=0.9347
+MLP 100 epoch 11: train CE=0.0259, valid CE=0.2550, valid F1=0.9355
+MLP 100 epoch 12: train CE=0.0219, valid CE=0.2501, valid F1=0.9348
+MLP 100 epoch 13: train CE=0.0189, valid CE=0.2462, valid F1=0.9355
+MLP 100 epoch 14: train CE=0.0166, valid CE=0.2432, valid F1=0.9368
+MLP 100 epoch 15: train CE=0.0147, valid CE=0.2407, valid F1=0.9381
+MLP 100 epoch 16: train CE=0.0132, valid CE=0.2388, valid F1=0.9388
+MLP 100 epoch 17: train CE=0.0120, valid CE=0.2372, valid F1=0.9374
+MLP 100 epoch 18: train CE=0.0111, valid CE=0.2358, valid F1=0.9380
+MLP 100 epoch 19: train CE=0.0102, valid CE=0.2347, valid F1=0.9380
+MLP 100 epoch 20: train CE=0.0095, valid CE=0.2338, valid F1=0.9380
+MLP 100 epoch 21: train CE=0.0090, valid CE=0.2330, valid F1=0.9381
+MLP 100 epoch 22: train CE=0.0085, valid CE=0.2323, valid F1=0.9373
+MLP 100 epoch 23: train CE=0.0080, valid CE=0.2317, valid F1=0.9373
+MLP 100 epoch 24: train CE=0.0076, valid CE=0.2312, valid F1=0.9367
+MLP 100 epoch 25: train CE=0.0073, valid CE=0.2308, valid F1=0.9366
+MLP 100 epoch 26: train CE=0.0070, valid CE=0.2304, valid F1=0.9366
+MLP 100 epoch 27: train CE=0.0067, valid CE=0.2300, valid F1=0.9379
+MLP 100 epoch 28: train CE=0.0065, valid CE=0.2297, valid F1=0.9385
+MLP 100 epoch 29: train CE=0.0063, valid CE=0.2294, valid F1=0.9392
+MLP 100 epoch 30: train CE=0.0061, valid CE=0.2292, valid F1=0.9392
+MLP 100 epoch 31: train CE=0.0059, valid CE=0.2289, valid F1=0.9392
+MLP 100 epoch 32: train CE=0.0058, valid CE=0.2287, valid F1=0.9399
+MLP 100 epoch 33: train CE=0.0056, valid CE=0.2285, valid F1=0.9392
+MLP 100 epoch 34: train CE=0.0055, valid CE=0.2283, valid F1=0.9392
+MLP 100 epoch 35: train CE=0.0054, valid CE=0.2281, valid F1=0.9392
+MLP 100 epoch 36: train CE=0.0053, valid CE=0.2279, valid F1=0.9392
+MLP 100 epoch 37: train CE=0.0052, valid CE=0.2277, valid F1=0.9385
+MLP 100 epoch 38: train CE=0.0051, valid CE=0.2276, valid F1=0.9385
+MLP 100 epoch 39: train CE=0.0050, valid CE=0.2274, valid F1=0.9385
+MLP 100 epoch 40: train CE=0.0049, valid CE=0.2273, valid F1=0.9385
+MLP 100 epoch 41: train CE=0.0048, valid CE=0.2271, valid F1=0.9385
+MLP 100 epoch 42: train CE=0.0047, valid CE=0.2270, valid F1=0.9379
+MLP 100 epoch 43: train CE=0.0046, valid CE=0.2268, valid F1=0.9379
+MLP 100 epoch 44: train CE=0.0045, valid CE=0.2267, valid F1=0.9372
+MLP 100 epoch 45: train CE=0.0045, valid CE=0.2266, valid F1=0.9372
+MLP 100 epoch 46: train CE=0.0044, valid CE=0.2264, valid F1=0.9372
+MLP 100 epoch 47: train CE=0.0043, valid CE=0.2263, valid F1=0.9372
+MLP 100 epoch 48: train CE=0.0043, valid CE=0.2262, valid F1=0.9372
+MLP 100 epoch 49: train CE=0.0042, valid CE=0.2261, valid F1=0.9372
+MLP 100 epoch 50: train CE=0.0041, valid CE=0.2260, valid F1=0.9378
+MLP 100 epoch 51: train CE=0.0041, valid CE=0.2259, valid F1=0.9378
+MLP 100 epoch 52: train CE=0.0040, valid CE=0.2258, valid F1=0.9379
+MLP 100 epoch 53: train CE=0.0040, valid CE=0.2257, valid F1=0.9378
+MLP 100 epoch 54: train CE=0.0039, valid CE=0.2257, valid F1=0.9372
+MLP 100 epoch 55: train CE=0.0038, valid CE=0.2256, valid F1=0.9372
+MLP 100 epoch 56: train CE=0.0038, valid CE=0.2255, valid F1=0.9372
+MLP 100 epoch 57: train CE=0.0037, valid CE=0.2255, valid F1=0.9372
+MLP 100 epoch 58: train CE=0.0037, valid CE=0.2255, valid F1=0.9372
+MLP 100 epoch 59: train CE=0.0036, valid CE=0.2254, valid F1=0.9385
+MLP 100 epoch 60: train CE=0.0036, valid CE=0.2254, valid F1=0.9385
+MLP hidden=100 [word1+2]: accuracy=0.9383, macro-F1=0.9385, fit=137.78s
+LR C=10 [word1]: accuracy=0.9423, macro-F1=0.9425, fit=0.74s
+Selected: {'model': 'LR', 'parameter': 'C=10', 'feature': 'word1', 'train_accuracy': 0.999830335934849, 'train_macro_f1': 0.9998306519898392, 'validation_accuracy': 0.9423337856173677, 'validation_macro_f1': 0.9424857730433095, 'fit_seconds': 0.7438548000063747, 'best_epoch': None, 'epochs_run': None, 'validation_cross_entropy': 0.32981929183006287}
+model  parameter feature  train_accuracy  train_macro_f1  validation_accuracy  validation_macro_f1  fit_seconds  best_epoch  epochs_run  validation_cross_entropy
+   LR       C=10   word1        0.999830        0.999831             0.942334             0.942486     0.743855         NaN         NaN                  0.329819
+  MLP hidden=100 word1+2        1.000000        1.000000             0.938263             0.938454   137.782287        59.0        60.0                  0.225399
+   LR       C=10 word1+2        1.000000        1.000000             0.938263             0.938423     2.353791         NaN         NaN                  0.332920
+  MLP  hidden=50 word1+2        1.000000        1.000000             0.936228             0.936391   114.129539        60.0        60.0                  0.226833
+  SVM       C=10 word1+2        0.999830        0.999831             0.932157             0.932671    32.359055         NaN         NaN                       NaN
+  SVM        C=1 word1+2        0.995080        0.995085             0.930122             0.930604    30.614698         NaN         NaN                       NaN
+   LR        C=1 word1+2        0.983203        0.983243             0.918589             0.919115     0.930289         NaN         NaN                  0.705694
+   NB  alpha=0.1 word1+2        0.979640        0.979700             0.907056             0.908084     0.018078         NaN         NaN                  0.312632
+   NB  alpha=0.5 word1+2        0.968103        0.968223             0.903664             0.904615     0.032513         NaN         NaN                  0.426990
+   LR      C=0.1 word1+2        0.946556        0.946688             0.900271             0.900806     0.388874         NaN         NaN                  1.664086
+   NB    alpha=1 word1+2        0.962674        0.962819             0.897558             0.898514     0.014384         NaN         NaN                  0.589515
+  SVM      C=0.1 word1+2        0.912114        0.914951             0.844640             0.852133    44.829607         NaN         NaN                       NaN
+Saved 2457 predictions. Total 473.7s

@@ -1,0 +1,9 @@
+{
+  "split_verified": true,
+  "metrics_recomputed": true,
+  "confusion_matrix_verified": true,
+  "finite_loss_curves": true,
+  "prediction_rows": 2457,
+  "final_refit_matches": true,
+  "prediction_sha256": "cb3990a7d60a98a6ebee184d9815bebd0e903f55092bff1ceb1fabc72d127096"
+}

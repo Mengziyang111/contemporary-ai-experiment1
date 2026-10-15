@@ -1,0 +1,101 @@
+{
+  "seed": 42,
+  "validation_fraction": 0.2,
+  "train_samples": 5894,
+  "validation_samples": 1474,
+  "labeled_samples": 7368,
+  "test_samples": 2457,
+  "class_counts": {
+    "0": 730,
+    "1": 739,
+    "2": 737,
+    "3": 742,
+    "4": 747,
+    "5": 745,
+    "6": 743,
+    "7": 738,
+    "8": 742,
+    "9": 705
+  },
+  "data_checks": {
+    "missing_values": 0,
+    "empty_texts": 0,
+    "duplicate_train_texts": 0,
+    "overlapping_train_validation_texts": 0
+  },
+  "data_sha256": {
+    "train_data.csv": "484667d165458da7f73ba36d172d67e14864e1aa5ab1ee6262e2966dd295c863",
+    "test_data_unlabeled.csv": "4882c04b008c055f351f1c9b25c45d601a454077af37e79375601f2465b41615"
+  },
+  "tfidf": {
+    "lowercase": true,
+    "stop_words": "english",
+    "min_df": 2,
+    "max_df": 0.95,
+    "max_features": 20000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "sublinear_tf": true,
+    "dtype": "<class 'numpy.float32'>"
+  },
+  "shared_feature_fit_transform_seconds": 5.071651299949735,
+  "selection_rule": "validation Macro-F1, then accuracy, then lower fit time",
+  "best_configuration": {
+    "model": "LR",
+    "parameter": "C=10",
+    "feature": "word1",
+    "train_accuracy": 0.999830335934849,
+    "train_macro_f1": 0.9998306519898392,
+    "validation_accuracy": 0.9423337856173677,
+    "validation_macro_f1": 0.9424857730433095,
+    "fit_seconds": 0.7438548000063747,
+    "best_epoch": null,
+    "epochs_run": null,
+    "validation_cross_entropy": 0.32981929183006287
+  },
+  "mlp_max_epochs": 60,
+  "mlp_patience": 8,
+  "most_common_confusions": [
+    {
+      "count": 11,
+      "true": 7,
+      "predicted": 2
+    },
+    {
+      "count": 7,
+      "true": 2,
+      "predicted": 7
+    },
+    {
+      "count": 7,
+      "true": 2,
+      "predicted": 1
+    },
+    {
+      "count": 5,
+      "true": 0,
+      "predicted": 2
+    },
+    {
+      "count": 4,
+      "true": 7,
+      "predicted": 6
+    }
+  ],
+  "warnings": [],
+  "total_seconds": 473.70224799995776,
+  "environment": {
+    "python": "3.13.9",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scikit_learn": "1.9.0",
+    "matplotlib": "3.11.0",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "cpu_count": 32,
+    "blas_threads": 1
+  },
+  "prediction_sha256": "cb3990a7d60a98a6ebee184d9815bebd0e903f55092bff1ceb1fabc72d127096"
+}
