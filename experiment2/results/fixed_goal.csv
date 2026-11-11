@@ -1,0 +1,3 @@
+﻿heuristic,queries,total_expanded,median_query_batch_us,preprocessing_us,preprocessing_expanded,total_us,costs
+manhattan,20,7782,13149.9,0,0,13149.9,"[111, 109, 107, 105, 103, 98, 95, 93, 90, 88, 90, 91, 88, 83, 78, 75, 75, 70, 71, 68]"
+exact_reverse,20,796,2785.2,662.2,488,3447.4,"[111, 109, 107, 105, 103, 98, 95, 93, 90, 88, 90, 91, 88, 83, 78, 75, 75, 70, 71, 68]"

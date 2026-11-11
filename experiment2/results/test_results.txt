@@ -1,0 +1,40 @@
+test_custom_json_inputs (test_cli.CommandLineTests.test_custom_json_inputs) ... ok
+test_full_original_demo (test_cli.CommandLineTests.test_full_original_demo) ... ok
+test_direction_of_entry_weights (test_extensions.ReverseHeuristicAudit.test_direction_of_entry_weights) ... ok
+test_disconnected_zero_fallback_and_goal_mismatch (test_extensions.ReverseHeuristicAudit.test_disconnected_zero_fallback_and_goal_mismatch) ... ok
+test_free_goal_zero_weights_and_start_equals_goal (test_extensions.ReverseHeuristicAudit.test_free_goal_zero_weights_and_start_equals_goal) ... ok
+test_invalid_terrain_and_goals_rejected_before_search (test_extensions.ReverseHeuristicAudit.test_invalid_terrain_and_goals_rejected_before_search) ... ok
+test_nonzero_goal_heuristic_rejected (test_extensions.ReverseHeuristicAudit.test_nonzero_goal_heuristic_rejected) ... ok
+test_numeric_string_entry_costs_match_main_parser (test_extensions.ReverseHeuristicAudit.test_numeric_string_entry_costs_match_main_parser) ... ok
+test_random_directed_costs_against_independent_dijkstra (test_extensions.ReverseHeuristicAudit.test_random_directed_costs_against_independent_dijkstra) ... ok
+test_json_tree_roles (test_extensions.TreasureIndependentAudit.test_json_tree_roles) ... ok
+test_random_matrices_cache_windows_and_each_root_action (test_extensions.TreasureIndependentAudit.test_random_matrices_cache_windows_and_each_root_action) ... ok
+test_given_maze (test_search_tree.AStarTests.test_given_maze) ... ok
+test_given_weighted (test_search_tree.AStarTests.test_given_weighted) ... ok
+test_inconsistent_admissible_heuristic_reopens (test_search_tree.AStarTests.test_inconsistent_admissible_heuristic_reopens) ... ok
+test_input_validation (test_search_tree.AStarTests.test_input_validation) ... ok
+test_random_maze_against_bfs (test_search_tree.AStarTests.test_random_maze_against_bfs) ... ok
+test_random_terrain_against_dijkstra (test_search_tree.AStarTests.test_random_terrain_against_dijkstra) ... ok
+test_start_equals_goal_and_free_adjacent_goal (test_search_tree.AStarTests.test_start_equals_goal_and_free_adjacent_goal) ... ok
+test_unreachable_and_invalid_endpoints (test_search_tree.AStarTests.test_unreachable_and_invalid_endpoints) ... ok
+test_equal_bounds_prune_and_order_does_not_mutate (test_search_tree.GameTreeTests.test_equal_bounds_prune_and_order_does_not_mutate) ... ok
+test_given_tree (test_search_tree.GameTreeTests.test_given_tree) ... ok
+test_random_trees_against_independent_minimax (test_search_tree.GameTreeTests.test_random_trees_against_independent_minimax) ... ok
+test_single_leaf_negative_values_and_validation (test_search_tree.GameTreeTests.test_single_leaf_negative_values_and_validation) ... ok
+test_all_depths_against_independent_exhaustive (test_treasure.TreasureTests.test_all_depths_against_independent_exhaustive) ... ok
+test_cutoffs_only_count_skipped_siblings (test_treasure.TreasureTests.test_cutoffs_only_count_skipped_siblings) ... ok
+test_directed_distance_not_assumed_symmetric (test_treasure.TreasureTests.test_directed_distance_not_assumed_symmetric) ... ok
+test_exact_values_and_pv (test_treasure.TreasureTests.test_exact_values_and_pv) ... ok
+test_given_horizons (test_treasure.TreasureTests.test_given_horizons) ... ok
+test_invalid_configuration_and_unreachable (test_treasure.TreasureTests.test_invalid_configuration_and_unreachable) ... ok
+test_matrix_against_floyd_warshall (test_treasure.TreasureTests.test_matrix_against_floyd_warshall) ... ok
+test_minimax_counts_complete_tree (test_treasure.TreasureTests.test_minimax_counts_complete_tree) ... ok
+test_optional_pv_does_not_change_search (test_treasure.TreasureTests.test_optional_pv_does_not_change_search) ... ok
+test_random_matrices_ordering_cache_and_ties (test_treasure.TreasureTests.test_random_matrices_ordering_cache_and_ties) ... ok
+test_random_weighted_maps_against_floyd (test_treasure.TreasureTests.test_random_weighted_maps_against_floyd) ... ok
+test_state_update_and_no_automatic_collection (test_treasure.TreasureTests.test_state_update_and_no_automatic_collection) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.985s
+
+OK

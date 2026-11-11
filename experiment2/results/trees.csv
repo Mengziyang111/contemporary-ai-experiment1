@@ -1,0 +1,7 @@
+﻿algorithm,order,value,visited,leaves,cutoffs,ordering_visited,median_us
+minimax,forward,5,15,8,0,0,7.5
+minimax,reverse,5,15,8,0,0,7.2
+minimax,ideal,5,15,8,0,15,14.9
+alphabeta,forward,5,14,7,1,0,5.7
+alphabeta,reverse,5,14,7,1,0,6.3
+alphabeta,ideal,5,11,5,2,15,10.4

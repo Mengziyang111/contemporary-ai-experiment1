@@ -1,0 +1,4 @@
+﻿heuristic,n,cost,expanded,generated,popped,stale,median_us,preprocessing_expanded,preprocessing_us
+exact_reverse,30,92.267,50.2,98.567,50.2,0,152.283,472.833,602.947
+manhattan,30,92.267,385.433,442.867,413.033,27.6,634.28,0,0
+zero,30,92.267,458.8,463.867,458.8,0,609.94,0,0

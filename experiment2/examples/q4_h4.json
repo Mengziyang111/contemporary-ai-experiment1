@@ -1,0 +1,6 @@
+{
+  "depth": 4,
+  "algorithm": "alphabeta",
+  "order": "gain",
+  "use_cache": false
+}
