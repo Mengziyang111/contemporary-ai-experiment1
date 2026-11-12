@@ -113,15 +113,4 @@ print(answer.best_target, answer.best_value)
 - 精确启发的预处理计数和时间单列，单查询及固定终点 20 查询对照都计入成本。
 - 微秒耗时因机器、Python 版本和后台负载而变化，重跑不保证与报告完全相同；确定性种子下答案与节点计数应一致。
 
-## 重建报告
-
-算法运行不需要报告依赖。若希望修改实测数据后同步重建 PDF：
-
-```powershell
-python -m pip install reportlab
-python build_report.py
-```
-
-默认使用 Windows 宋体与黑体；其他系统可通过 `--font /path/chinese.ttf --bold-font /path/chinese-bold.ttf` 指定支持中文的 TrueType 字体。报告 Markdown 与 PDF 共用数据源，避免手工复制数字。提供的 PDF 已逐页渲染检查。
-
 课程要求来源：《实验二要求_new.pdf》，2026年10月15日版本，第3至17页，以及后续补充的五页上限、PDF首页仓库链接与ZIP提交要求。提交渠道以课程通知为准。
